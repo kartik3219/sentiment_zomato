@@ -2,7 +2,7 @@
 
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Scikit-Learn](https://img.shields.io/badge/Libraries-ScikitLearn-orange.svg)![NLTK](https://img.shields.io/badge/NLTK-brightyellow.svg)
 
-This repository consists of files required for end to end implementation and deployment of Machine Learning NLP Restaurant Reviews Sentiment Analysis web application created with flask and deployed on the Heroku platform.
+This repository consists of files required for end to end implementation and deployment of Machine Learning Brain Tumor Detection web application created with flask and deployed on the Heroku platform.
 
 ## Table of Contents
   * [App Link](#app-link)
@@ -12,13 +12,13 @@ This repository consists of files required for end to end implementation and dep
 
 ## App Link
 If you want to view the deployed model, click on the following link:<br />
-[ https://sentiment-zomato-kartik.herokuapp.com/]( https://sentiment-zomato-kartik.herokuapp.com/)
+[ https://sentiment-zomato-kartik.herokuapp.com/] (https://braintumor0110.herokuapp.com/)
 
 
 ## About the App
-The Restaurant Reviews Sentiment Analysis is a Flask web application which classifies/detects sentiments of customers as positive or negative sentiments. In this ML-NLP model, restaurant reviews dataset from Kaggle (also available in UCI ML Library) was used to perform Sentiment Analysis using Stemming and Bag of Words model to classify reviews into  sentiments. Since, the data is fairly balanced, we are only concerned with accuracy_score. From various Classifiers, highest accuracy achieved was 81% with cross_val_score of 79.4%.
+This project is a Flask web application which detects whether the given picture of brain cell has brain tumor or not.
 
-The code is written in Python 3.6.10 and it makes use of NLTK library for text processing.  
+The code is written in Python 3.6.10 and it makes use of CNN for image processing.
 
 
 ## Deployement on Heroku
